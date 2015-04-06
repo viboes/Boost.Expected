@@ -7,10 +7,11 @@ Expected has not been proposed yet to the C++ standard committee.
 Test results
 -------------------
 
+
+
 Branches        | Build         | Tests coverage
 ----------------|-------------- | -------------
-Master:        | [![Build Status](https://travis-ci.org/viboes/Boost.Expected.svg?branch=master)](https://travis-ci.org/viboes/Boost.Expected)  | [![Coverage Status](https://coveralls.io/repos/viboes/Boost.Expected/badge.png?branch=master)](https://coveralls.io/r/viboes/Boost.Expected?branch=master)
-
+Master:        | [![Build Status](https://travis-ci.org/viboes/Boost.Expected.svg?branch=master)](https://travis-ci.org/viboes/Boost.Expected)  | [![Coverage Status](https://coveralls.io/repos/viboes/Boost.Expected/badge.svg)](https://coveralls.io/r/viboes/Boost.Expected)
 
 Supported compilers
 -------------------
