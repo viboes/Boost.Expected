@@ -61,7 +61,7 @@ before_install:
     #######################
     # Install libc++
     - if [ "$LIBCXX" = "libc++" ]; then echo "Installing libc++";  fi
-    - if [ "$LIBCXX" = "libc++" ]; then svn co --quiet http://llvm.org/svn/llvm-project/libcxx/libcxx/$LIBCXX_VERSION libcxx; fi
+    - if [ "$LIBCXX" = "libc++" ]; then svn co --quiet http://llvm.org/svn/llvm-project/libcxx/$LIBCXX_VERSION libcxx; fi
     - if [ "$LIBCXX" = "libc++" ]; then cd libcxx/lib && bash buildit; fi
     - if [ "$LIBCXX" = "libc++" ]; then sudo cp ./libc++.so.1.0 /usr/lib/; fi
     - if [ "$LIBCXX" = "libc++" ]; then sudo mkdir /usr/include/c++/v1; fi
