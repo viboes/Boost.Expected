@@ -25,6 +25,30 @@ matrix:
       - STDLIB_LIBCXX=""
       - CXX_STANDARD=c++1y
       
+    - compiler: gcc
+      env: 
+      - GCC_VERSION="4.9"
+      - TOOLSET=gcc-4.9
+      - LIBCXX="libstdc++"
+      - STDLIB_LIBCXX=""
+      - CXX_STANDARD=c++11
+      
+    - compiler: gcc
+      env: 
+      - GCC_VERSION="4.8"
+      - TOOLSET=gcc-4.8
+      - LIBCXX="libstdc++"
+      - STDLIB_LIBCXX=""
+      - CXX_STANDARD=c++11
+      
+    - compiler: gcc
+      env: 
+      - GCC_VERSION="4.8"
+      - TOOLSET=gcc-4.8
+      - LIBCXX="libstdc++"
+      - STDLIB_LIBCXX=""
+      - CXX_STANDARD=c++1y
+      
 #    - compiler: clang
 #      env: 
 #      - TOOLSET=clang
