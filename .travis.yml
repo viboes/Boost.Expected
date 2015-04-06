@@ -29,7 +29,7 @@ matrix:
       env: 
       - TOOLSET=clang
       - LIBCXX="libc++"
-      - CXX_STANDARD=c++1y
+      - CXX_STANDARD=c++11
       - STDLIB_LIBCXX="-stdlib=$LIBCXX"
 
 env:
